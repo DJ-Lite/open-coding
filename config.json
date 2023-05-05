@@ -1,0 +1,47 @@
+{
+    "color": "#ffffff",
+    "serverId": "server id (for slash commands)",
+    "token": "insert your bot token here",
+    "Adminroles": ["discord role id"],
+    
+    "Moderation": {
+        "BAN" : {
+            "Perms": "Discord role id that have perms to ban other people",
+            "Logs": "Discord Channel id for the logs"
+        },
+
+        "KICK": {
+            "Perms": "Discord role id that have perms to kick other people",
+            "Logs": "Discord Channel id for the logs"
+        }
+    },
+
+    "Status":{
+        "Type": "PLAYING",
+        "Text": "DJ-Lite's Team"
+    },
+
+    "Events": {
+        "Welcome": {
+            "ChannelId": "Discord Channel id for sending general welcome message",
+            "GivingRole": "Discord role id to add a role when people join your server",
+            "Logs": "Discord Channel id for the logs",
+
+            "EmbedMessage": {
+                "Title": "Welcome",
+                "Description": "Welcome <@${member.id}> to the server!\n\nBefore sending a message in our community. Be sure to read the server's rules",
+                "Image": "https://cdn.discordapp.com/attachments/1089502886091825194/1098569355651981412/62cef776-3b22-4ba8-98c7-99e6e0a9f73d.png",
+                "Footer": "This is a footer - DJ-Lite's Team"
+            }
+
+        }
+    },
+
+    "Helpmenu": {
+        "Title": "Help menu",
+        "Description": "This is the help menu description",
+        "Image": "https://cdn.discordapp.com/attachments/1089502886091825194/1098569355651981412/62cef776-3b22-4ba8-98c7-99e6e0a9f73d.png",
+        "Footer": "This is a footer - DJ-Lite's Team"
+    }
+
+}
